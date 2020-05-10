@@ -1,5 +1,5 @@
 import * as actionTypes from './actionTypes';
-import * as constants from '../constants/constants'
+import * as constants from '../constants/constants';
 import axios from 'axios';
 
 export const fetchData = () => {
@@ -56,8 +56,10 @@ const parseProductData = (data, products) => {
         Object.entries(data.compareSummary).map(([feature, value]) => {
             Object.entries(value).map(([id, val]) => {
                 if (selectedProduct.id === id) {
-                    if (feature === 'images') product.image = val
-                    if (feature === 'titles') { product.title = val.title; product.subTitle = val.subtitle; }
+                    if (feature === 'images') product.image = val;
+                    if (feature === 'titles')
+                        product.title = val.title;
+                        product.subTitle = val.subtitle;
                     if (feature === 'productPricingSummary') { 
                         product.finalPrice = val.finalPrice;
                         product.totalDiscount = val.totalDiscount; 
