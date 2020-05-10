@@ -1,0 +1,3 @@
+export const FETCH_DATA = 'FETCH_DATA';
+export const SELECTED_PRODUCTS = 'SELECTED_PRODUCTS';
+export const REMOVE_PRODUCT = 'REMOVE_PRODUCT';
