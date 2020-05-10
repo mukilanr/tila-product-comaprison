@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/product-comparison/static/css/main.c8edf86d.chunk.css",
+    "main.js": "/product-comparison/static/js/main.3e280d23.chunk.js",
+    "main.js.map": "/product-comparison/static/js/main.3e280d23.chunk.js.map",
+    "runtime-main.js": "/product-comparison/static/js/runtime-main.c9286e2c.js",
+    "runtime-main.js.map": "/product-comparison/static/js/runtime-main.c9286e2c.js.map",
+    "static/js/2.9956ead2.chunk.js": "/product-comparison/static/js/2.9956ead2.chunk.js",
+    "static/js/2.9956ead2.chunk.js.map": "/product-comparison/static/js/2.9956ead2.chunk.js.map",
+    "index.html": "/product-comparison/index.html",
+    "precache-manifest.e77568088c614354efa53ed3eedb30f4.js": "/product-comparison/precache-manifest.e77568088c614354efa53ed3eedb30f4.js",
+    "service-worker.js": "/product-comparison/service-worker.js",
+    "static/css/main.c8edf86d.chunk.css.map": "/product-comparison/static/css/main.c8edf86d.chunk.css.map",
+    "static/js/2.9956ead2.chunk.js.LICENSE.txt": "/product-comparison/static/js/2.9956ead2.chunk.js.LICENSE.txt",
+    "static/media/close.png": "/product-comparison/static/media/close.6bb11a6d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9286e2c.js",
+    "static/js/2.9956ead2.chunk.js",
+    "static/css/main.c8edf86d.chunk.css",
+    "static/js/main.3e280d23.chunk.js"
+  ]
+}
