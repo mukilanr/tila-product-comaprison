@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export const fetchData = () => {
     return dispatch => {
-        axios.get('http://www.mocky.io/v2/5e9ebdaa2d00007800cb7697')
+        axios.get('https://www.mocky.io/v2/5e9ebdaa2d00007800cb7697')
             .then(response => {
                 const productDetails = response.data.products.compareSummary.titles;
                 let products = [];
