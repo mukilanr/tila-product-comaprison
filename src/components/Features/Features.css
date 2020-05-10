@@ -1,0 +1,18 @@
+tr {
+  display: inline-flex;
+  flex-direction: column;
+}
+td {
+  padding: 5px;
+  text-align: center;
+  border: 0px;
+  height: 23px;
+}
+.feature-heading {
+  background-color: #f7f7f7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.feature-heading-top {
+  height: 300px;
+}
