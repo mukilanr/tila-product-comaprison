@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { selectedProduct, removeProduct } from '../../actions/actions';
 import './Product.css';
 import remove from '../../assets/close.png';
+import placeholder from '../../assets/placeholder.jpg';
 
 const Product = props => {
         const { product, products, onSelectProduct, selectedProducts } = props;
@@ -24,7 +25,7 @@ const Product = props => {
         return <>
             <tr className='product-col'>
                 <td className="img-container">
-                    {product && product.image &&
+                    {product && product ?
                         <><img alt={product.title} src={product.image} class="product-img" />
                             <img onClick={() => props.onRemoveProduct(product.id)}
                                 class="img-remove"
@@ -37,6 +38,9 @@ const Product = props => {
                                 <span className="product-discount"> {product.totalDiscount}%off</span>
                             </p>
                         </>
+                        :
+                        <><img src={placeholder} alt="Choose a Product"/>
+                        <h4 className="product-title">Add a Product</h4></>
                     }
                 </td>
                 <td>{productsSelectBox}</td>
